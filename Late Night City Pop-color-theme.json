@@ -1,0 +1,904 @@
+{
+	"name": "Japanese City Pop",
+	"type": "dark",
+	"colors": {
+		"activityBar.activeBackground": "#dab2c6",
+		"activityBar.activeBorder": "#fca6d1",
+		"activityBar.background": "#1b1d36",
+		"activityBar.border": "#222244",
+		"activityBar.dropBorder": "#fca6d1",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBar.inactiveForeground": "#fcb5d9",
+		"activityBarBadge.background": "#fca6d1",
+		"activityBarBadge.foreground": "#1E1E3F",
+
+		"badge.background": "#FAD000",
+		"badge.foreground": "#1E1E3F",
+
+		"breadcrumb.activeSelectionForeground": "#FFFFFF", // Color of selected breadcrumb items.
+		"breadcrumb.focusForeground": "#FAD000", // Color of focused breadcrumb items.
+		"breadcrumb.foreground": "#fcb5d9",
+		"breadcrumbPicker.background": "#1E1E3F", // Background color of breadcrumb item picker.
+
+		"button.background":"#fca6d1",// this I need to think about more
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#d78ab1",
+
+		"contrastActiveBorder": "#FFFFFF00",
+		"contrastBorder": "#FFFFFF00",
+
+		"debugExceptionWidget.background": "#1E1E3F",
+		"debugExceptionWidget.border": "#fcb5d9",
+		"debugIcon.continueForeground": "#FAD000",
+		"debugIcon.disconnectForeground": "#FAD000",
+		"debugIcon.pauseForeground": "#FAD000",
+		"debugIcon.restartForeground": "#a0fcbd",
+		"debugIcon.startForeground": "#FAD000",
+		"debugIcon.stepBackForeground": "#FAD000",
+		"debugIcon.stepIntoForeground": "#FAD000",
+		"debugIcon.stepOutForeground": "#FAD000",
+		"debugIcon.stepOverForeground": "#FAD000",
+		"debugIcon.stopForeground": "#EC3A37F5",
+		"debugToolBar.background": "#1E1E3F",
+
+		"descriptionForeground": "#fcb5d9", // @TODO AAA
+
+		"diffEditor.insertedTextBackground": "#00FF000E",
+		"diffEditor.insertedTextBorder": "#00FF009A",
+		"diffEditor.removedTextBackground": "#FF000D1A",
+		"diffEditor.removedTextBorder": "#FF000D81",
+
+		"dropdown.background": "#1E1E3F",
+		"dropdown.border": "#1E1E3F",
+		"dropdown.foreground": "#FFFFFF",
+
+		"editor.background": "#1b1d36",
+		"editor.findMatchBackground": "#ff7300ab", // #FF7200 Color of the current search match.
+		"editor.findMatchHighlightBackground": "#72455ca9", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+		"editor.findRangeHighlightBackground": "#72455ca9", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+		"editor.foreground": "#fca6d1",
+		"editor.hoverHighlightBackground": "#72455ca9",
+		"editor.inactiveSelectionBackground": "#7580B8C0", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+		"editor.lineHighlightBackground": "#652f4a62",
+		"editor.lineHighlightBorder": "#1F1F41",
+		"editor.linkedEditingBackground": "#1b1d36", // HTML Matching Elements.
+		"editor.rangeHighlightBackground": "#72455ca9",
+		"editor.selectionBackground": "#93456d88",
+		"editor.selectionHighlightBackground": "#72455ca9",
+		"editor.snippetFinalTabstopHighlightBackground": "#72455ca9",
+		"editor.snippetFinalTabstopHighlightBorder": "#652f4a62",
+		"editor.snippetTabstopHighlightBackground": "#72455ca9",
+		"editor.snippetTabstopHighlightBorder": "#652f4a62",
+		"editor.symbolHighlightBackground": "#72455ca9",
+		"editor.wordHighlightBackground": "#72455ca9",
+		"editor.wordHighlightBorder": "#652f4a62",
+		"editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
+		"editor.wordHighlightStrongBorder": "#ab588388",
+		"editorBracketMatch.background": "#ab588388",
+		"editorBracketMatch.border": "#AD70FC46",
+		"editorCodeLens.foreground": "#fcb5d9",
+		"editorCursor.foreground": "#FAD000", //  Color of the editor cursor.
+		"editorError.foreground": "#EC3A37F5",
+		"editorGroup.border": "#425b8e",
+		"editorGroup.dropBackground": "#b4e9fb66",			//consider the drop
+		"editorGroupHeader.noTabsBackground": "#1b1d36", // I have no idea why it's showing like this
+		"editorGroupHeader.tabsBackground": "#2b2d54",
+		"editorGroupHeader.tabsBorder": "#1F1F41",
+		"editorGutter.addedBackground": "#35AD68",
+		"editorGutter.background": "#1f213c",
+		"editorGutter.deletedBackground": "#EC3A37F5",
+		"editorGutter.modifiedBackground": "#AD70FC46",
+		"editorHoverWidget.background": "#482739",
+		"editorHoverWidget.border": "#161633",
+		"editorHoverWidget.statusBarBackground": "#4b5387",
+		"editorIndentGuide.activeBackground": "#fcb5d942",
+		"editorIndentGuide.background": "#fcb5d90F",
+		"editorLineNumber.foreground":"#e88bb9", // Color of editor line numbers.
+		"editorLink.activeForeground": "#fcb5d9",
+		"editorMarkerNavigation.background": "#3B536433",
+		"editorMarkerNavigationError.background": "#EC3A37F5",
+		"editorMarkerNavigationWarning.background": "#FAD000",
+		"editorOverviewRuler.border": "#fcb5d91C",
+		"editorOverviewRuler.commonContentForeground": "#FFC60055",
+		"editorOverviewRuler.currentContentForeground": "#EE3A4355",
+		"editorOverviewRuler.incomingContentForeground": "#a0fcbd55",
+		"editorRuler.foreground": "#fcb5d91C", // Editor Ruler.
+		"editorSuggestWidget.background": "#1F1F41",
+		"editorSuggestWidget.border": "#1F1F41",
+		"editorSuggestWidget.foreground": "#fcb5d9",
+		"editorSuggestWidget.highlightForeground": "#FAD000",
+		"editorSuggestWidget.selectedBackground": "#2D2B55",
+		"editorWarning.border": "#FFFFFF00",
+		"editorWarning.foreground": "#FAD000",
+		"editorWhitespace.foreground": "#FFFFFF1A",
+		"editorWidget.background": "#222244",
+		"editorWidget.border": "#1F1F41",
+
+		"errorForeground": "#EC3A37F5",
+
+		"extensionButton.prominentBackground": "#1b1d36",
+		"extensionButton.prominentForeground": "#FFFFFF",
+		"extensionButton.prominentHoverBackground": "#4b5387",
+
+		"focusBorder": "#1E1E3F",
+		
+		"foreground": "#fcb5d9",
+
+		"gitDecoration.conflictingResourceForeground": "#FF7200", // Color for conflicting git resources.
+		"gitDecoration.deletedResourceForeground": "#EC3A37F5", // Color for deleted git resources.
+		"gitDecoration.ignoredResourceForeground": "#8df4ff", // Color for ignored git resources.
+		"gitDecoration.modifiedResourceForeground": "#fffb85", // Color for modified git resources.
+		"gitDecoration.untrackedResourceForeground": "#a0fcbd", // Color for untracked git resources.
+
+		"input.background": "#2D2B55",
+		"input.border": "#1E1E3F",
+		"input.foreground": "#FAD000",
+		"input.placeholderForeground": "#fcb5d9",
+		"inputOption.activeBackground": "#1b1d36",
+		"inputOption.activeBorder": "#1E1E3F",
+		"inputValidation.errorBackground": "#2D2B55",
+		"inputValidation.errorBorder": "#FAD000",
+		"inputValidation.infoBackground": "#2D2B55",
+		"inputValidation.infoBorder": "#2D2B55",
+		"inputValidation.warningBackground": "#2D2B55",
+		"inputValidation.warningBorder": "#FAD000",
+
+		"list.activeSelectionBackground": "#2D2B55",
+		"list.activeSelectionForeground": "#FFFFFF",
+		"list.dropBackground":"#b4e9fb66",  // consider the drop
+		"list.focusBackground":"#4b5387",
+		"list.focusForeground": "#FFFFFF",
+		"list.focusHighlightForeground":"#4b5387",
+		"list.focusOutline":"#535d9f",  // consider the drop 
+		"list.highlightForeground": "#FAD000",
+		"list.hoverBackground":"#4b5387",
+		"list.hoverForeground": "#CEC5FF",
+		"list.inactiveSelectionBackground":"#535d9f",  // consider the drop
+		"list.inactiveSelectionForeground": "#AAA",
+		"listFilterWidget.background": "#2D2B55",
+		"listFilterWidget.noMatchesOutline": "#EC3A37F5",
+		"listFilterWidget.outline": "#2D2B55",
+
+		"menu.separatorBackground": "#fcb5d9",
+
+		"merge.border": "#FFFFFF00",
+		"merge.commonContentBackground": "#fcb5d981",
+		"merge.commonHeaderBackground": "#fcb5d981",
+		"merge.currentContentBackground": "#a0fcbd93",
+		"merge.currentHeaderBackground": "#a0fcbd93",
+		"merge.incomingContentBackground": "#ff730086",
+		"merge.incomingHeaderBackground": "#ff730086",
+
+		"notificationCenter.border": "#1E1E3F", // Notification Center border color.
+		"notificationCenterHeader.background": "#1b1d36", // Notification Center header background color.
+		"notificationCenterHeader.foreground": "#FFFFFF", // Notification Center header foreground color.
+		"notificationLink.foreground": "#FFFFFF", // Notification links foreground color.
+		"notifications.background": "#1E1E3F", // Notification background color.
+		"notifications.border": "#2D2B55", // Notification border color separating from other notifications in the Notification Center.
+		"notifications.foreground": "#CEC5FF", // Notification foreground color.
+		"notificationToast.border": "#1E1E3F", // Notification toast border color.
+
+		"panel.background": "#1E1E3F",
+		"panel.border": "#FAD000",
+		"panelTitle.activeBorder": "#FAD000",
+		"panelTitle.activeForeground": "#FAD000",
+		"panelTitle.inactiveForeground": "#fcb5d9",
+
+		"peekView.border": "#FAD000",
+		"peekViewEditor.background": "#1E1E3F",
+		"peekViewEditor.matchHighlightBackground": "#652f4a62",
+		"peekViewEditorGutter.background": "#191935",
+		"peekViewResult.background": "#1E1E3F",
+		"peekViewResult.fileForeground": "#AAA",
+		"peekViewResult.lineForeground": "#efd7d7",
+		"peekViewResult.matchHighlightBackground": "#652f4a62",
+		"peekViewResult.selectionBackground": "#2D2B55",
+		"peekViewResult.selectionForeground": "#FFFFFF",
+		"peekViewTitle.background": "#1F1F41",
+		"peekViewTitleDescription.foreground": "#AAA",
+		"peekViewTitleLabel.foreground": "#FAD000",
+
+		"pickerGroup.border": "#1E1E3F",
+		"pickerGroup.foreground": "#fcb5d9",
+
+		"progressBar.background": "#FAD000",
+
+		"scrollbar.shadow": "#fcb5d981",
+		"scrollbarSlider.activeBackground":"#525b95",
+		"scrollbarSlider.background":"#313362",//313362
+		"scrollbarSlider.hoverBackground":"#40437d",
+
+		"selection.background": "#fccae3",
+
+		"settings.checkboxBackground": "#1E1E3F",
+		"settings.checkboxBorder": "#1E1E3F",
+		"settings.checkboxForeground": "#E5E4FB",
+		"settings.dropdownBackground": "#1E1E3F",
+		"settings.dropdownBorder": "#1E1E3F",
+		"settings.dropdownForeground": "#E5E4FB",
+		"settings.dropdownListBorder": "#2D2B55",
+		"settings.headerForeground": "#FFFFFF",
+		"settings.modifiedItemIndicator": "#FAD000",
+		"settings.numberInputBackground": "#1E1E3F",
+		"settings.numberInputBorder": "#1E1E3F",
+		"settings.numberInputForeground": "#E5E4FB",
+		"settings.textInputBackground": "#1E1E3F",
+		"settings.textInputBorder": "#1E1E3F",
+		"settings.textInputForeground": "#E5E4FB",
+
+		"sideBar.background": "#222343",
+		"sideBar.border": "#25254B",
+		"sideBar.dropBackground": "#b4e9fb66",  		//consider the drop
+		"sideBar.foreground": "#fcb5d9",
+		"sideBarSectionHeader.background": "#1b1d36",
+		"sideBarSectionHeader.border": "#1E1E3F",
+		"sideBarSectionHeader.foreground": "#fcb5d9",
+		"sideBarTitle.foreground":"#fcb5d9",
+
+		"statusBar.background": "#1E1E3F",
+		"statusBar.border": "#1E1E3F",
+		"statusBar.debuggingBackground": "#FAD000",
+		"statusBar.debuggingForeground": "#1E1E3F",
+		"statusBar.foreground": "#fcb5d9",
+		"statusBar.noFolderBackground": "#1E1E3F",
+		"statusBar.noFolderForeground": "#fcb5d9",
+		"statusBarItem.activeBackground": "#4b103e",
+		"statusBarItem.hoverBackground": "#4b103e",
+		"statusBarItem.prominentBackground": "#1E1E3F",
+		"statusBarItem.prominentHoverBackground": "#2D2B55",
+
+		"tab.activeBackground": "#1b1d36",
+		"tab.activeBorder": "#FAD000",
+		"tab.activeForeground": "#FFFFFF",
+		"tab.activeModifiedBorder": "#fcb5d9",
+		"tab.border": "#1E1E3F",
+		"tab.hoverBackground": "#4b5387",
+		"tab.inactiveBackground": "#2b2d54",
+		"tab.inactiveForeground": "#fcb5d9",
+		"tab.inactiveModifiedBorder": "#fcb5d966",
+		"tab.unfocusedActiveForeground": "#fcb5d9",
+		"tab.unfocusedActiveModifiedBorder": "#fcb5d966",
+		"tab.unfocusedHoverBackground": "#4b5387",
+		"tab.unfocusedInactiveForeground": "#fcb5d9",
+		"tab.unfocusedInactiveModifiedBorder": "#fcb5d966",
+
+		"textBlockQuote.background": "#1E1E3F",
+		"textBlockQuote.border": "#1b1d36",
+		"textCodeBlock.background": "#1E1E3F",
+		"textLink.activeForeground": "#fccae3",
+		"textLink.foreground": "#fccae3",
+		"textPreformat.foreground": "#FAD000",
+		"textSeparator.foreground": "#1E1E3F",
+
+		"titleBar.activeBackground": "#1E1E3F",
+		"titleBar.activeForeground": "#ffc9e4",
+		"titleBar.inactiveBackground": "#1E1E3F",
+		"titleBar.inactiveForeground": "#8e6278",
+
+		"walkThrough.embeddedEditorBackground": "#1E1E3F",
+
+		"welcomePage.buttonBackground": "#1E1E3F",
+		"welcomePage.buttonHoverBackground": "#262650",
+
+		"widget.shadow": "#00000026",
+	},
+	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a0fcbd"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#8df4ff"
+			}
+		},
+		{
+			"name": "Colors",  // what is this suppose to change?
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Invalid", 				// I need to consider this one
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword",
+				"storage.type",
+				"storage.modifier"
+			],
+			"settings": {
+				"foreground": "#ffd19a"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"keyword.control",
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+				"keyword.other.template",
+				"keyword.other.substitution"
+			],
+			"settings": {
+				"foreground": "#acb5ff"
+			}
+		},
+		{
+			"name": "Tag",							// I need to consider this one as well
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#fffb85"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+				"keyword.other.special-method"
+			],
+			"settings": {
+				"foreground": "#fffb85"
+			}
+		},
+		{
+			"name": "Block Level Variables",			// I need to consdier this one
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#fd85ff"
+			}
+		},
+		{
+			"name": "Other Variable, String Link",			// I need to consdier this one
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",	
+			"scope": [
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"variable.parameter",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#fd85ff"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#fcb5d9"
+			}
+		},
+		{
+			"name": "Class, Support",					// I might come back to this one
+			"scope": [
+				"entity.name",
+				"support.type",
+				"support.class",
+				"support.other.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
+			],
+			"settings": {
+				"foreground": "#fffb85"
+			}
+		},
+		{
+			"name": "Entity Types",						// I might come back to this one
+			"scope": [
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#fffb85"
+			}
+		},
+		{
+			"name": "CSS Class and Support",			// I need to consider this one
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#8df4ff"
+			}
+		},
+		{
+			"name": "Sub-methods",						// I need to consider this one
+			"scope": [
+				"entity.name.module.js",
+				"variable.import.parameter.js",
+				"variable.other.class.js"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Language methods",						// I need to consider this one
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "entity.name.method.js",			// this one
+			"scope": [
+				"entity.name.method.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "meta.method.js",					// this one
+			"scope": [
+				"meta.class-method.js entity.name.function.js",
+				"variable.function.constructor"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Attributes",
+			"scope": [
+				"entity.other.attribute-name"			// might want to reconsider this one
+			],
+			"settings": {
+				"foreground": "#ffd19a"
+			}
+		},
+		{
+			"name": "HTML Attributes",
+			"scope": [													// this one
+				"text.html.basic entity.other.attribute-name.html",
+				"text.html.basic entity.other.attribute-name"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "CSS Classes",										// this one
+			"scope": [
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "#fffb85"
+			}
+		},
+		{
+			"name": "CSS ID's",								// this one
+			"scope": [
+				"source.sass keyword.control"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Inserted",							// this one
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Deleted",										// this one
+			"scope": [	
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Changed",							// this one
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Regular Expressions",					// this one
+			"scope": [
+				"string.regexp"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "Escape Characters",					// this one
+			"scope": [
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#89DDFF"
+			}
+		},
+		{
+			"name": "URL",						// this one
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Decorators",						// this one
+			"scope": [
+				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "ES7 Bind Operator",						// this one
+			"scope": [
+				"source.js constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "JSON Key - Level 0",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "JSON Key - Level 1",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "JSON Key - Level 2",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "JSON Key - Level 3",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "JSON Key - Level 4",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C17E70"
+			}
+		},
+		{
+			"name": "JSON Key - Level 5",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "JSON Key - Level 6",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "JSON Key - Level 7",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "JSON Key - Level 8",					// this one
+			"scope": [
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Markdown - Plain",					// this one
+			"scope": [
+				"text.html.markdown",
+				"punctuation.definition.list_item.markdown"
+			],
+			"settings": {
+				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline",					// this one
+			"scope": [
+				"text.html.markdown markup.inline.raw.markdown"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Markdown - Markup Raw Inline Punctuation",					// this one
+			"scope": [
+				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+			],
+			"settings": {
+				"foreground": "#65737E"
+			}
+		},
+		{
+			"name": "Markdown - Heading",					// this one
+			"scope": [
+				"markdown.heading",
+				"markup.heading | markup.heading entity.name",
+				"markup.heading.markdown punctuation.definition.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Markup - Italic",					// this one
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Markup - Bold",					// this one
+			"scope": [
+				"markup.bold",
+				"markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Markup - Bold-Italic",					// this one
+			"scope": [
+				"markup.bold markup.italic",
+				"markup.italic markup.bold",
+				"markup.quote markup.bold",
+				"markup.bold markup.italic string",
+				"markup.italic markup.bold string",
+				"markup.quote markup.bold string"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Markup - Underline",					// this one
+			"scope": [
+				"markup.underline"
+			],
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#F78C6C"
+			}
+		},
+		{
+			"name": "Markdown - Blockquote",					// this one
+			"scope": [
+				"markup.quote punctuation.definition.blockquote.markdown"
+			],
+			"settings": {
+				"foreground": "#65737E"
+			}
+		},
+		{
+			"name": "Markup - Quote",					// this one
+			"scope": [
+				"markup.quote"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markdown - Link",					// this one
+			"scope": [
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "#82AAFF"
+			}
+		},
+		{
+			"name": "Markdown - Link Description",					// this one
+			"scope": [
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Markdown - Link Anchor",					// this one
+			"scope": [
+				"constant.other.reference.link.markdown"
+			],
+			"settings": {
+				"foreground": "#FFCB6B"
+			}
+		},
+		{
+			"name": "Markup - Raw Block",					// this one
+			"scope": [
+				"markup.raw.block"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+		{
+			"name": "Markdown - Raw Block Fenced",					// this one
+			"scope": [
+				"markup.raw.block.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "#00000050"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block",					// this one
+			"scope": [
+				"punctuation.definition.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "#00000050"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Bode Block Variable",					// this one
+			"scope": [
+				"markup.raw.block.fenced.markdown",
+				"variable.language.fenced.markdown",
+				"punctuation.section.class.end"
+			],
+			"settings": {
+				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "Markdown - Fenced Language",					// this one
+			"scope": [
+				"variable.language.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "#fd85ff"
+			}
+		},
+		{
+			"name": "Markdown - Separator",					// this one
+			"scope": [
+				"meta.separator"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#65737E"
+			}
+		},
+		{
+			"name": "Markup - Table",					// this one
+			"scope": [
+				"markup.table"
+			],
+			"settings": {
+				"foreground": "#EEFFFF"
+			}
+		}
+	]
+}

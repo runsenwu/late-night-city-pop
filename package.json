@@ -1,0 +1,21 @@
+{
+    "name": "late-night-city-pop",
+    "displayName": "Late Night City Pop",
+    "description": "I like it when the color pops out to me, that's why I am creating this extention",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Late Night City Pop",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Late Night City Pop-color-theme.json"
+            }
+        ]
+    }
+}
